@@ -6,6 +6,11 @@ A simple template for Android development using Robolectric, Maven and IntelliJ.
 
 To get an Android project setup:
 
+1. Install Gradle 1.6 (the latest version does not work with the Robolectric plugin). On Mac OS X run:
+
+        > git checkout 7900579 /usr/local/Library/Formula/gradle.rb
+        > brew install gradle
+
 1. Install the Android SDK. On Mac OS X just run:
 
         > brew install android-sdk
