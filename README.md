@@ -21,8 +21,8 @@ To get an Android project setup:
 
 5. In the project directory you should be able to run the tests:
 
-        > mvn test
+        > ./gradlew check
         
-6. Import the project into IntelliJ by selecting 'Import Project' in IntelliJ and selecting the project's `pom.xml`. When prompted to pick an SDK you just need to select the Android SDK home and your JDK.
+6. Import the project into Android Studio by selecting 'Import Project' in Android Studio and selecting the project's `build.gradle`.
 
 7. Build an app. Win.
